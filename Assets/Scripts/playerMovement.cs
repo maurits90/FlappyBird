@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class playerMovement : MonoBehaviour
+public class playerMovement : MonoBehaviour {
 
-{
+    public GameManager gameManager;
     Rigidbody2D rb;
     public float jumpForce;
     float score;
@@ -38,5 +38,10 @@ public class playerMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameManager.GameOver();
     }
 }
