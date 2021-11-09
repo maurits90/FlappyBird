@@ -26,6 +26,13 @@ public class playerMovement : MonoBehaviour {
         {
             rb.velocity = Vector2.up * jumpForce;
         }
+        foreach(Touch touch in Input.touches)
+        {
+            if(touch.phase == TouchPhase.Began)
+            {
+                rb.velocity = Vector2.up * jumpForce;
+            }
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

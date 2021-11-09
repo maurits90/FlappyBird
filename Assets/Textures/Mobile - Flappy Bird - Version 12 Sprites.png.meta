@@ -25,7 +25,7 @@ TextureImporter:
     second: spr_title
   - first:
       213: 6297297506034485570
-    second: Mobile - Flappy Bird - Version 12 Sprites_7
+    second: spr_menu
   - first:
       213: 5897210807152635017
     second: Mobile - Flappy Bird - Version 12 Sprites_8
@@ -471,7 +471,7 @@ TextureImporter:
         width: 95
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -513,7 +513,7 @@ TextureImporter:
         width: 89
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,6 +521,27 @@ TextureImporter:
       bones: []
       spriteID: 2a031cb4a384df450800000000000000
       internalID: 6124130483509997730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 472
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249832c97be746750800000000000000
+      internalID: 6297297506034485570
       vertices: []
       indices: 
       edges: []
